@@ -25,7 +25,7 @@
 }
 
 /* gradient */
-/* baru */
+/* new */
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -104,7 +104,7 @@
   transform: rotate(-53.13deg);
 }
 
-/* gradient untuk buttons */
+/* gradient for buttons */
 .gradient-05 {
   background: linear-gradient(
     180deg,
@@ -123,7 +123,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* warna pink */
+/*  pink */
 .gradient-06 {
   position: absolute;
   width: 450px;
@@ -137,7 +137,7 @@
   transform: rotate(5deg);
 }
 
-/* linear warna */
+/* linear colors*/
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
@@ -147,7 +147,7 @@
   );
 }
 
-/* blue agak gelap */
+/* dark blue */
 .footer-gradient {
   position: absolute;
   width: 500px;
@@ -160,12 +160,6 @@
 }
 
 
-
-
-
-/* ================================================== */
-
-/* lama */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -267,7 +261,7 @@
   background: #474747;
 }
 
-/* akhir scroolbar */
+/* end scroolbar */
 
 
 /* feature card */

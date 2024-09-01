@@ -1,5 +1,5 @@
 import { dm2 } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 import { motion } from "framer-motion";
 import {
   textVariant,

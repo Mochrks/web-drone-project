@@ -1,5 +1,5 @@
-import styles from "../style";
-import { layout } from "../style";
+import styles from "../styles/style";
+import { layout } from "../styles/style";
 import { dr1, dr2, dr3, dr4 } from "../assets";
 import { motion } from "framer-motion";
 import {
@@ -11,7 +11,10 @@ import {
 } from "../utils/motion.js";
 
 const HotDrop = () => (
-  <section
+  <motion.section
+    variants={textVariant(1.1)}
+    initial="hidden"
+    whileInView="show"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-discount-gradient rounded-[20px] box-shadow`}
   >
     <motion.div
@@ -71,7 +74,7 @@ const HotDrop = () => (
         </div>
       </motion.div>
     </motion.div>
-  </section>
+  </motion.section>
 );
 
 export default HotDrop;

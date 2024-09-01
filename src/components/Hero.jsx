@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import styles from "../style";
+import styles from "../styles/style";
 import { card, dji, drone, icon } from "../assets";
 import {
   textVariant,
@@ -14,7 +14,6 @@ import Details from "./Details";
 
 const Hero = () => {
   return (
-    // heroo awal
     <section id="home" className={`flex md:flex-row flex-col`}>
       <motion.div
         variants={staggerContainer}
@@ -30,10 +29,10 @@ const Hero = () => {
           <img src={dji} alt="dji" className="py-16" />
         </motion.div>
 
-        {/* deskripsi */}
+        {/* description */}
         <motion.p
           variants={textVariant(1.1)}
-          className={`${styles.paragraph} max-w-[470px]  ss:px-1 z-[999] text-justify text-center mx-5`}
+          className={`${styles.paragraph} max-w-[470px]  ss:px-1 z-[999] text-justify  mx-5`}
         >
           Experience the thrill of flying with our advanced and reliable drones!
           Our drones are designed to provide an unparalleled aerial perspective,
@@ -49,7 +48,7 @@ const Hero = () => {
         </motion.p>
         <motion.div
           variants={fadeIn("right", "tween", 0.5, 2)}
-          className="pt-16 md:pl-1 pl-11 sm:pl-1 pl-3"
+          className="pt-16 md:pl-1 pl-11 sm:pl-1"
         >
           <img
             src={card}

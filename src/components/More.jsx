@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from "../styles/style";
 import { more } from "../assets";
 
 const More = ({ styles }) => (

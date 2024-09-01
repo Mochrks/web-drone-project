@@ -1,5 +1,5 @@
 import { remote } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 import { motion } from "framer-motion";
 import Button2 from "./Button2";
 import {

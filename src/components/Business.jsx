@@ -1,5 +1,5 @@
 import { features } from "../constants";
-import styles, { layout } from "../style";
+import styles, { layout } from "../styles/style";
 import Button from "./Button";
 import {
   textVariant,
@@ -75,7 +75,7 @@ const Business = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${layout.sectionImg} flex-col`}
+      className={`${layout.sectionImg} flex-col cursor-pointer`}
     >
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />

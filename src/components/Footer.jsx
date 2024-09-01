@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from "../styles/style";
 import { favicon } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 

@@ -1,4 +1,4 @@
-import styles from "./style";
+import styles from "./styles/style";
 import { Business, Footer, Navbar, Hero, Shop, Desc, Dji } from "./components";
 
 const App = () => (
@@ -9,7 +9,7 @@ const App = () => (
       </div>
     </div>
     <div
-      className={`${styles.paddingX} ${styles.flexCenter} bg-hero-pattern bg-hero-pattern bg-cover bg-no-repeat bg-center`}
+      className={`${styles.paddingX} ${styles.flexCenter} bg-hero-pattern  bg-cover bg-no-repeat bg-center`}
     >
       <div className={`${styles.boxWidth}`}>
         <Hero />
